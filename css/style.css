@@ -50,6 +50,8 @@ body {
   margin: 0%;
 }
 
+/* Página Contato */
+
 #form-titulo {
   padding: 20px 0;
   margin: 0px;
@@ -78,4 +80,14 @@ body {
 
 .mapa {
   text-align: center;
+}
+
+/* Página Quem Somos */
+
+.quem{
+  display: flexbox;
+  height: 600px;
+  width: 1000px;
+  background: slateblue;
+
 }
