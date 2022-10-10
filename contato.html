@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="produtos.html">
     <link rel="stylesheet" href="quem-somos.html">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat&display=swap" rel="stylesheet">
     <title>Açaí do Bill</title>
 </head>
 <header>
@@ -30,27 +34,29 @@
     <div class="forms">
         <form action="">
             <h1 id="form-titulo">Entre em contato!</h1>
-            <Input type="text" id="nome" name="nome" placeholder="NOME" required></Input> <br>
-            <Input type="email" id="email" name="email" placeholder="E-MAIL" required></Input> <br>
-            <Input type="tel" id="tel" name="telefone" placeholder="TELEFONE (com DDD)" required></Input> <br>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="SUA MENSAGEM" required></textarea> <br>
+            <Input class="espaco" type="text" id="nome" placeholder=" NOME" required></Input> <br>
+            <Input class="espaco" type="email" id="email" placeholder=" E-MAIL" required></Input> <br>
+            <Input class="espaco" type="tel" id="tel" placeholder=" TELEFONE (com DDD)" required></Input> <br>
+            <textarea id="mensagem" cols="30" rows="10" placeholder=" SUA MENSAGEM" required></textarea> <br>
             <Input type="checkbox" id="checar" name="checar" value="checar" required></Input>
             <label for="checar">Verificar</label>
-            <Input type="submit" onclick="alert('Sua mensagem foi enviada!')" value="Enviar"  name="validar" style="margin-bottom: 20px; margin-top: 10px;"></Input> <br>
+            <Input type="submit" value="Enviar" style="margin: 20px; width: 100px; height: 40px; border-radius: 4px; border-width: thin;"></Input> <br>
         </form>
         <div class="mapa">
-            <h2>Onde estamos?</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29406.47989153776!2d-43.456130247922395!3d-22.88347659992043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdff2a1bed6f3%3A0x5ecb9488f615e5a2!2sBangu%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1665365252722!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.74025232757!2d-43.40369676285433!3d-22.88605173690256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99620102adbaaf%3A0x57801002a5220ab!2sParque%20Shopping%20Sulacap!5e0!3m2!1spt-BR!2sbr!4v1665404497562!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7350.916565348944!2d-43.129050066590146!3d-22.89646149999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983db2748ab47%3A0x2149de2763f63c60!2sShopping%20Plaza%20Niter%C3%B3i!5e0!3m2!1spt-BR!2sbr!4v1665404641851!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470661.7684374173!2d-43.40336435968667!3d-22.837822135361876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999566748d76cb%3A0xb7cfac762b13568!2sShopping%20Itabora%C3%AD%20Plaza!5e0!3m2!1spt-BR!2sbr!4v1665403595583!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1>Onde estamos?</h1>
+            <div class="grid grid-blco">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29406.47989153776!2d-43.456130247922395!3d-22.88347659992043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdff2a1bed6f3%3A0x5ecb9488f615e5a2!2sBangu%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1665365252722!5m2!1spt-BR!2sbr" width="400" height="270" style="border:0; border-radius: 4px; margin: 15px; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.74025232757!2d-43.40369676285433!3d-22.88605173690256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99620102adbaaf%3A0x57801002a5220ab!2sParque%20Shopping%20Sulacap!5e0!3m2!1spt-BR!2sbr!4v1665404497562!5m2!1spt-BR!2sbr" width="400" height="270" style="border:0;border-radius: 4px; margin: 15px; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7350.916565348944!2d-43.129050066590146!3d-22.89646149999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983db2748ab47%3A0x2149de2763f63c60!2sShopping%20Plaza%20Niter%C3%B3i!5e0!3m2!1spt-BR!2sbr!4v1665404641851!5m2!1spt-BR!2sbr" width="400" height="270" style="border:0;border-radius: 4px; margin: 15px; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470661.7684374173!2d-43.40336435968667!3d-22.837822135361876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999566748d76cb%3A0xb7cfac762b13568!2sShopping%20Itabora%C3%AD%20Plaza!5e0!3m2!1spt-BR!2sbr!4v1665403595583!5m2!1spt-BR!2sbr" width="400" height="270" style="border:0; border-radius: 4px; margin: 15px; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
 </body>
 <script>
     function validar() {
         var vali = document.getElementById("nome");
-        if(vali.value == "") {
+        if (vali.value == "") {
             alert("Insira seu nome!");
             vali.focus()
         }
