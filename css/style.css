@@ -132,3 +132,47 @@ h1 {
   width: 470px;
   text-align: center;
 }
+
+/* Página Produtos*/
+
+h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 36px;
+}
+
+.cartoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 200px;
+}
+
+.cartao {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color:  seagreen;
+}
+
+.preco {
+  color: #fcb900;
+  font-size: 22px;
+}
+
+.cartao button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #fcb900;
+  background-color: rgb(59, 20, 90);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cartao button:hover {
+  background-color: rgb(89, 30, 138);
+}
